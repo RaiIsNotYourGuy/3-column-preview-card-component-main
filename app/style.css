@@ -1,0 +1,210 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* font-family: 'Big Shoulders Display', cursive; */
+    font-family: 'Lexend Deca', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: hsl(0, 0%, 95%);
+}
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.card-container {
+    height: auto;
+    padding: 0;
+    margin: 100px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: auto 15px auto 15px;
+    border-radius: 10px;
+    max-width: 375px;
+}
+
+.card-section-1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px 50px 50px 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-section-1-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.card-section-1-body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card-section-1-btn {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    margin-top: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    transition-property: background-color, color, outline;
+    transition-duration: 100ms;
+}
+
+.card-section-1-btn:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    outline: 2px solid hsl(0, 0%, 95%);
+}
+
+.card-section-2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px 50px 50px 40px;
+}
+
+.card-section-2-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.card-section-2-body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card-section-2-btn {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    margin-top: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    transition-property: background-color, color, outline;
+    transition-duration: 100ms;
+}
+
+.card-section-2-btn:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    outline: 2px solid hsl(0, 0%, 95%);
+}
+
+.card-section-3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px 50px 50px 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-section-3-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.card-section-3-body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card-section-3-btn {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    margin-top: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    transition-property: background-color, color, outline;
+    transition-duration: 100ms;
+}
+
+.card-section-3-btn:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    outline: 2px solid hsl(0, 0%, 95%);
+}
+
+@media (min-width:1000px) {
+    .card-container {
+        height: 95%;
+        margin: auto;
+    }
+    .card {
+        width: 100%;
+        max-width: 1200px;
+        max-height: 450px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-grow: 4;
+    }
+    .card-section-1 {
+        border-radius: 10px 0 0 10px;
+        height: 400px;
+        width: 215px;
+    }
+    .card-section-2 {
+        height: 400px;
+        width: 215px;
+    }
+    .card-section-3 {
+        border-radius: 0 10px 10px 0;
+        height: 400px;
+        width: 215px;
+    }
+    .card-section-1-body {
+        margin-bottom: 60px;
+        padding-right: 20px;
+        line-height: 1.75;
+    }
+    .card-section-2-body {
+        margin-bottom: 60px;
+        padding-right: 20px;
+        line-height: 1.75;
+    }
+    .card-section-3-body {
+        margin-bottom: 60px;
+        line-height: 1.75;
+    }
+    footer {
+        position: relative;
+        bottom: 100px;
+    }
+}
